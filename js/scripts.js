@@ -20,6 +20,7 @@ document.querySelector("#movieList").addEventListener("click", function(event) {
     console.log("movie list has been clicked!")
     console.log(event.target)
     // event.target.style.backgroundColor = "yellow"
+    // you can also element.classList.remove("class name")
     event.target.classList.add("yellowBackground")
 
 }) 
